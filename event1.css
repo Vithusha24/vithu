@@ -1,0 +1,284 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #683902;
+}
+
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:-100px;
+    background-color: #937450;
+    padding: 40px;
+    width: 94.5%;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav .nav-bar li {
+    margin-right:70px;
+    justify-content: space-between;
+}
+
+nav .nav-bar li a{
+ font-size: x-large;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: #040404;
+ font-weight: bolder;
+ text-decoration-line: none;
+}
+ nav .nav-bar .active{
+    color: rgb(233, 227, 227);
+}
+.topimage {
+    position: relative;
+    text-align: center;
+    color: #bab266;
+}
+#img-bg{
+    width: 95%;
+    height: auto;
+    display:grid;
+    margin-top:15px;
+    margin-left: 30px;
+
+}
+.hh1{
+    display:grid;
+    position: relative;
+    margin-top:-620px;
+    font-size:50px;
+    color: #fcfafa;
+    text-align: center;
+
+}
+/* Basic styling */
+
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cab68d;
+    }
+  
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  /* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-bar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav .nav-bar li {
+      margin: 0;
+      margin-bottom: 10px;
+  }
+
+  .hh1 {
+      font-size: 20px;
+      margin-top: -20px;
+  }
+}
+  
+  
+  
+  /* Animations 
+  .main-image img {
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Add more animations as desired */
+/* Basic styling */
+.margin {
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.in-wild {
+  font-size: 16px; /* Adjust for readability */
+  line-height: 1.5; /* For comfortable reading */
+  text-align: justify; /* Optional for visual appeal */
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .margin {
+    margin: 10px 0; /* Adjust margins for smaller screens */
+  }
+  .in-wild {
+    font-size: 14px; /* Slightly smaller font for mobile */
+  }
+}
+.in-to{
+  margin-top: 550px;
+}
+  
+  
+  
+  .margin{
+    text-align: center;
+  }
+  .in-wild{
+    text-align: center;
+    font-size: 25px;
+  }
+  .main-in{
+    color: #151414;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+  div.gallery {
+    margin-top: 30px;
+  }
+  
+  div.gallery ul {
+    list-style-type: none;
+    margin-left: 35px;
+  }
+  
+  /* animation */
+  div.gallery ul li, div.gallery li img {
+    -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+  }
+  
+  div.gallery ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    z-index: 0;
+  }
+  
+  /* Make sure z-index is higher on hover */
+  /* Ensure that hover image overlapped the others */
+  div.gallery ul li:hover {
+    z-index: 5;
+  }
+  
+  /* Image is position nicely under li */
+  div.gallery ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+    background: #f0f0f0;
+  }
+  
+  div.gallery ul li img:hover {
+    width: 200px;
+    height: 200px;
+    margin-top: -130px;
+    margin-left: -130px;
+    top: 65%;
+    left: 65%;
+  }
+  
+    
+  
+  /* Responsive hack */
+  @media only screen and (min-width: 499px) and (max-width: 1212px) {
+    .wrapper {
+      width: 500px;
+    }
+  }
+  
+  @media only screen and (max-width: 498px) {
+    .wrapper {
+      width: 300px;
+    }
+  
+    div.gallery ul {
+      list-style-type: none;
+      margin: 0;
+    }
+  }
+.head{
+  border: 10px solid black;
+  padding: 10px;
+  width: 35%; /* Set box to half the width of its parent */
+  text-align: center; /* Center the heading text */
+  margin: 0 auto; /* Automatically center the box horizontally */
+  text-align: center;
+  color: #bebeb9;
+  font-size: 30px;
+  }
+  .cright {
+    background-color:#C2B280;
+    padding: 40px;
+    text-align: center;
+    width: 94.2%;
+    margin-top: 220px;
+}
+.description{
+  margin-top: 250px;
+  text-align: center;
+  font-size: 20px;
+}
+  
+  
+  
+  
+  
+  
