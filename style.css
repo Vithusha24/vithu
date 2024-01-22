@@ -1,0 +1,1191 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #683902;
+}
+
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:-100px;
+    background-color: #937450;
+    padding: 40px;
+    width: 94.5%;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -9px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav .nav-bar li {
+    margin-right:70px;
+    justify-content: space-between;
+}
+
+nav .nav-bar li a{
+ font-size: x-large;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: #040404;
+ font-weight: bolder;
+ text-decoration-line: none;
+}
+ nav .nav-bar .active{
+    color: rgb(241, 237, 237);
+}
+.topimage {
+    position: relative;
+    text-align: center;
+    color: #bab266;
+}
+ .hh1{
+    display:grid;
+    position: relative;
+    margin-top:-620px;
+    font-size:50px;
+    color: #000000;
+
+}
+.video-bg {
+    width: auto;
+    height: 100vh;
+    display:grid;
+    margin-top:15px;
+    margin-left: 40px;
+}
+
+.video-background{
+    width: max-content;
+    height: 100vh;
+    margin-left: 50px;
+}
+#img-bg{
+    width: 95%;
+    height: auto;
+    display:grid;
+    margin-top:15px;
+    margin-left: 30px;
+
+}
+/* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .nav-bar li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .hh1 {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+header h6{
+    color: #040404;
+    text-align: center;
+}
+header h1{
+    color: #efe9e9;
+
+}
+
+.index{
+    margin-top: 450px;
+}
+
+.sec-1{
+    color: #333;
+}
+.div-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.intro-img img {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 15px;
+}
+
+.intro-description {
+    
+    text-align: center;
+}
+
+.m-title {
+    color: #060505;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    flex: 0 0 30%;
+    margin-bottom: 30px;
+    background-color:  #040404;
+    padding:10px ;
+    border-radius:6px;
+    display: inline;
+}
+
+
+   
+.brands {
+    color:#7b5013;
+}
+
+
+
+
+.column p {
+    color: #d5d5d5;
+    padding: 20px;
+    display:flex;
+    text-align:center
+    
+
+}
+.column img{
+    padding:40px;
+    padding: 80px;
+    width: 70%; ;
+    height:  40%;
+    
+}
+.div-2 {
+    margin-top: 30px;
+}
+
+.sub {
+    display: flex
+}
+
+.sub-sub {
+    width: 48%;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.title {
+    color: #0c0c0c;
+}
+
+.sub-parah {
+    color: #0c0c0c;
+}
+
+.sub-parah ul {
+    list-style-type: none;
+}
+
+
+.cright {
+    background-color:#C2B280;
+    padding: 100px;
+    text-align: center;
+    width: 94.2%;
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 2em;
+      }
+     
+      
+      section {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#cab68d;
+      }
+     
+      
+      
+      .wildlife-locations img {
+        width: 20%;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 40px;
+        border: 4px solid #040404;
+        text-align: center;
+      }
+      
+      th {
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      td img {
+        width: 300px;
+        height: 200px;
+      
+      }
+      @media only screen and (max-width: 600px) {
+        th, td {
+          padding: 10px; /* Adjusted padding for smaller screens */
+          border: 2px solid #040404; /* Adjusted border for smaller screens */
+        }
+      }
+      
+     
+      
+      
+      /* Media Query for screens smaller than 600px */
+
+
+        
+
+           .intro {
+            padding: 40px;
+            text-align: justify;
+        }
+        
+        
+      
+        
+         
+           
+           
+           
+           
+
+
+
+
+.contact {
+    background-color: #f5f5f5;
+    padding: 20px;
+    
+}
+
+.contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #fff;
+}
+.email {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .div-1 {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 0 0 100%;
+    }
+
+    .sub {
+        flex-direction: column;
+    }
+
+    .sub-sub {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* styles.css */
+
+body {
+    font-family: sans-serif;
+    margin: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+
+  /*
+  .venue {
+    margin-bottom: 20px;
+    border: 1
+    5px solid #100f06;
+    padding: 20px;
+  }
+  
+  .venue img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  */
+  @import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.divide {
+  font-family: 'Quattrocento', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #faf8f8;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+.divide * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.divide img {
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+}
+.divide figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  background-color: #090909;
+  padding: 15px 25px 65px;
+}
+.divide figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #958c8c 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #b8afaf 100%);
+}
+.divide h3,
+.divide p {
+  margin: 0 0 10px;
+}
+.divide h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.divide p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.divide a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.divide:hover figcaption,
+.divide.hover figcaption {
+  top: 80px;
+}
+.leopard-threats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.threat-box {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  animation: box-fade-in 1s ease-in-out both;
+}
+
+@keyframes box-fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.threat-box img {
+  margin-bottom: 20px;
+  width: 80%;
+  animation: image-pop 1s ease-in-out;
+}
+
+@keyframes image-pop {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.threat-box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: text-reveal 1s ease-in-out;
+}
+
+@keyframes text-reveal {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.threat-box p {
+  line-height: 1.8;
+  animation: text-fade-in 1s ease-in-out;
+}
+
+@keyframes text-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.threat-box p strong {
+  font-weight: bold;
+  color: #121312;
+}
+
+.threat-box a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0a0a0a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  animation: button-pulse 1s ease-in-out infinite;
+}
+
+@keyframes button-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+
+/*
+  
+  .threat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .threat img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }  
+  */
+
+  .cright{
+    width: 94.2%;
+    background-color:#C2B280;
+    padding: 40px;
+    text-align: center;
+    
+
+    
+  }
+  /*
+  
+  section {
+    padding: 20px;
+}
+
+
+
+  
+  /* Location section */
+  /* Styles for the sub-section containing maps */
+.sub-section {
+  margin-top: 20px;
+}
+
+.sub-section h2 {
+  color: #131313; /* Green color for subsection headers */
+  font-size: 30;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.location-item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.location-item h3 {
+  margin-top: 10px;
+  color: #f7eded;
+}
+
+.location-item .map-container {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.location-item iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.fig{
+  text-align: center;
+}
+
+
+.animal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.national-park img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*@media screen and (max-width: 700px)
+    .national-park img {
+        max-width: a;
+    }
+
+
+
+
+/*--------------------image animation ----------------------------------*/
+
+/*
+html,body{
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+*/
+.container{
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  height: 280px;
+  max-width: 350px;
+  margin: 0 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.card:hover{
+  height: 470px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.card .img{
+  height: 200px;
+  width: 100%;
+}
+.card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card .top-text{
+  padding: 5px;
+}
+.card .top-text .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+}
+.card .top-text p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .bottom-text{
+  padding: 0 20px 10px 20px;
+  margin-top: 5px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+}
+.card:hover .bottom-text{
+  opacity: 1;
+  visibility: visible;
+}
+.card .bottom-text .text{
+  text-align: justify;
+}
+.card .bottom-text .btn{
+  margin: 10px 0;
+  text-align: left;
+}
+.card .bottom-text .btn a{
+  text-decoration: none;
+  background: #e74c3c;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card .bottom-text .btn a:hover{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card{
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}
+/* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .card .top-text {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .card .bottom-text {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+}
+
+    /* Add your styles here */
+    .headstyle h1 {
+        color: #000000; /* Set the text color to a shade of green (#00695c) */
+        font-family: 'Arial', sans-serif; /* Set the font family */
+        font-size: 2em; /* Set the font size to 2em */
+        text-align: center; /* Center-align the text */
+    
+      }
+
+/*---------video play in introduction----------------------*/
+
+.video-container {
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px ;
+    padding-right: 10px;
+  }
+
+
+  .video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+/*animations for gallry*/
+
+@import url(https://fonts.bunny.net/css?family=amita:700);
+
+
+.hh2 {
+  color: #fefae0;
+  font-family: Amita;
+  margin: 20px auto;
+  width: 450px;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 10px double #0c0c0c;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  
+  
+}
+.age:hover{
+  border:10px solid #fdfcfa;
+
+
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wildlife-locations{
+  margin-top: 550px;
+
+}
+.wildlife-bg{
+  margin-top: 20px;
+
+}
+.design{
+  text-align: center;
+  font-size: 30px;
+  background-color: #f0f0f0; /* Set the background color */
+  padding: 10px; /* Add some padding around the text */
+  border: 5px solid #0f0f0f; /* Add a border (optional) */
+  
+  
+}
+.place{
+margin-top: 550px;
+
+}
+.container {
+  width  : 960px;
+  margin : 0 auto;
+}
+
+.container:after{
+  clear   : both;
+  display : table;
+  content : '';
+}
+
+.bg-items {
+  padding: 20px;
+  width  : 250px;
+  height : 160px;
+  margin : 20px;
+  background-color: white;
+  float  : left;
+  cursor : pointer;
+  box-shadow : 3px 3px 5px 0px rgba(0,0,0,0.5);
+}
+
+.items {
+  width  : 250px;
+  height : 160px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(16, 43, 70, 0.8); /* Set the background color with reduced opacity */
+}
+
+.details {
+  background-color : rgba(0,0,0,0.5);
+  width            : 220px;
+  height           : 140px;
+  padding          : 10px;
+  top : 0;
+  left: 0;
+  font-family : georgia;
+  color       : #fff;
+  opacity : 0;
+  transition : opacity .8s;
+}
+
+.details h3 {
+  margin-bottom : 20px;
+}
+
+.details h6 {
+  text-align : right;
+  margin-top : 40px;
+}
+
+.details p {
+  font-size : 14px;
+  font-style: italic;
+  text-align: center;
+  line-height : 20px;
+}
+
+.items:hover .details {
+  opacity : 1;
+  transition : opacity .2s .3s;
+}
+
+.items div {
+  position : absolute;
+}
+
+/* one */
+
+.one {
+  left   : 100%;
+  bottom : 100%;
+  width : inherit;
+  height: inherit;
+
+  transition   : all .3s;
+}
+
+.items:hover .one {
+  transition   : all .3s;
+  left   : 0;
+  bottom : 0;
+}
+
+/* two */
+
+.two {
+  width : inherit;
+  height: inherit;
+  
+  transition   : all .3s;
+  left   : 0;
+  bottom : 100%;
+}
+
+.items:hover .two {
+  transform : rotate(180deg);
+  left   : 0;
+  bottom : 0;
+  transition   : all .3s;
+}
+
+/* three */
+
+.three {
+  left : 0;
+  top  : 0;
+  width : inherit;
+  height: inherit;
+
+  transition   : all .3s;
+  transform: scale(0,0);
+}
+
+.items:hover .three {
+  left : 0;
+  top  : 0;
+  transform : scale(1,1);	
+  transition : all .3s;
+}
+
+/* four */
+
+.four {
+  width : inherit;
+  height: inherit;
+  
+  transition   : all .3s;
+  left : 0;
+  top  : 0;
+  transform: scale(0,0) rotate(0deg);
+}
+
+.items:hover .four {
+  left : 0;
+  top  : 0;
+  transform: scale(1,1) rotate(1080deg);
+  transition   : all .3s;
+}
+
+/* five */
+
+.tl5 {
+  border-top   : 161px solid rgb(198, 185, 184);
+  border-right : 241px solid transparent;
+  top  : -160px;
+  left : -240px;
+  transition   : all .3s;			
+}
+
+.br5 {
+  border-bottom : 161px solid rgb(200, 189, 188);
+  border-left   : 241px solid transparent;
+  bottom : -160px;
+  right  : -240px;
+  transition   : all .3s;			
+}
+
+.items:hover .tl5 {
+  top  : 0;
+  left : 0;
+  transition   : all .3s;
+}
+
+.items:hover .br5 {
+  bottom : 0;
+  right  : 0;
+  transition   : all .3s;
+}
+
+/* six */
+
+.tl6 {
+  width  : 120px;
+  height : 80px;
+  background-color: rgb(191, 168, 166);
+  top  : -80px;
+  left : -240px;
+  transition   : all .3s;			
+}
+
+.tr6 {
+  width  : 120px;
+  height : 80px;
+  
+  top   : -80px;
+  right : -240px;
+  transition   : all .3s;			
+}
+
+.br6 {
+  width  : 120px;
+  height : 80px;
+  background-color: rgb(202, 189, 188);
+  bottom: -80px;
+  right : -240px;
+  transition   : all .3s;
+}
+
+.bl6 {
+  width  : 120px;
+  height : 80px;
+  background-color: rgb(179, 173, 173);
+  bottom : -80px;
+  left   : -240px;
+  transition   : all .3s;
+}
+
+.items:hover .tl6 {
+  top  : 0;
+  left : 0;
+  transition   : all .3s;
+}
+
+.items:hover .tr6 {
+  top   : 0;
+  right : 0;
+  transition   : all .3s;
+}
+
+.items:hover .br6 {
+  bottom : 0;
+  right  : 0;
+  transition   : all .3s;
+}
+
+.items:hover .bl6 {
+  bottom : 0;
+  left   : 0;
+  transition   : all .3s;
+}
+
+
+
+  
+
+
+.line{
+  margin-top: 550px;
+}
+
+  
+
+  
+ 
+
+
+
+.park-title {
+  animation: title-fade 1s ease-in-out;
+  color: #121212;
+}
+
+@keyframes title-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.park-description {
+  animation: text-slide 0.5s ease-in-out;
+}
+
+@keyframes text-slide {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.park-link {
+  animation: button-pulse 1s ease-in-out infinite;
+}
+
+@keyframes button-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@media screen and (max-width: 768px) {
+  /* ... other mobile styles ... */
+
+  .park-section {
+    animation: appear 1s ease-in-out both; /* Re-apply the animation within the media query */
+  }
+
+  @keyframes appear {
+    /* Modify the animation properties for mobile */
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Reduced slide-down distance for mobile */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.type{
+  text-align: center;
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+}
+.get{
+  text-align: center;
+
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the list items inside the dropdown */
+.dropdown li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+/* Change color on hover */
+.dropdown li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the main navigation link */
+.dropdown-parent {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the active link */
+.active {
+  background-color: #0a0a0a;
+  color: rgb(15, 15, 15);
+}
+
+
+
+.gover{
+  text-align: center;
+  font-size: 20px;
+}
+
+.hh6{
+
+ text-align: right;
+ font-size: 20px;
+
+}
